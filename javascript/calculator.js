@@ -12,7 +12,7 @@ function mult (N1,N2)
 }
 function div (N1,N2)
 {
-    if(N2==0)
+    if(N2=0)
     {
         alert('Error');
     }

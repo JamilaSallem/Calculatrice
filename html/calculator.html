@@ -11,8 +11,10 @@
             <input name="Nbr1" type="text" class="form-control" size="5"><br/><br/>
             <input name="Nbr2" type="text" class="form-control" size="5"><br/><br/>
             <div class="btn-group" role="group" aria-label="BtnGrp1">
-                <button name="add" type="button" class="btn btn-secondary" value="+" onclick="document.form1.Res.value=add(document.form1.Nbr1,document.form1.Nbr2);"></button>
-                <button type="button" class="btn btn-secondary">Accueil</button>
+                <button name="add" type="button" class="btn btn-secondary" value="+" onclick="document.form1.Res.value=add(document.form1.Nbr1,document.form1.Nbr2);">+</button>
+                <button name="add" type="button" class="btn btn-secondary" value="-" onclick="document.form1.Res.value=sub(document.form1.Nbr1,document.form1.Nbr2);">-</button>
+                <button name="add" type="button" class="btn btn-secondary" value="*" onclick="document.form1.Res.value=mult(document.form1.Nbr1,document.form1.Nbr2);">*</button>
+                <button name="add" type="button" class="btn btn-secondary" value="/" onclick="document.form1.Res.value=div(document.form1.Nbr1,document.form1.Nbr2);">/</button>
             </div><br><br>
             <input name="Res" type="text" size="10" readonly/>
         </form>
